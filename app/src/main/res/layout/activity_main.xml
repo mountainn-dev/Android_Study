@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello \n world"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:scrollbarSize="20sp"
+        android:textColor="#19B620"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter ID"/>
+
+
+    <Button
+        android:id="@+id/bt_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bt_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bt_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web"/>
+
+
+    <ListView
+        android:id="@+id/list_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+</LinearLayout>
